@@ -1,3 +1,17 @@
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+.container {
+  margin: 0 auto;
+  max-width: 15%;
+  padding: 5rem;
+  background-color: lightcoral;
+  color: ghostwhite;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  border-radius: 3rem;
+}
+
+.container:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  font-size: 17px;
+}
